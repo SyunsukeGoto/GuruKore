@@ -11,6 +11,10 @@ GameObject:
   - component: {fileID: 9164811933910894666}
   - component: {fileID: 1668042765488241275}
   - component: {fileID: 4298200028113227329}
+  - component: {fileID: 5765844816067416701}
+  - component: {fileID: 2575273351906282799}
+  - component: {fileID: 8113088784863802935}
+  - component: {fileID: 6603984904529215180}
   m_Layer: 0
   m_Name: ClearStar
   m_TagString: Character
@@ -92,3 +96,67 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d3db63ff233fe9446beea503eb6dd87f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!58 &5765844816067416701
+CircleCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 424195671606540321}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: -1.3, y: 1.3}
+  serializedVersion: 2
+  m_Radius: 0.5
+--- !u!58 &2575273351906282799
+CircleCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 424195671606540321}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 1.3, y: 1.3}
+  serializedVersion: 2
+  m_Radius: 0.5
+--- !u!58 &8113088784863802935
+CircleCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 424195671606540321}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: -1.3, y: -1.3}
+  serializedVersion: 2
+  m_Radius: 0.5
+--- !u!58 &6603984904529215180
+CircleCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 424195671606540321}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 1.3, y: -1.3}
+  serializedVersion: 2
+  m_Radius: 0.5
